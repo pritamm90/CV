@@ -6,25 +6,26 @@ Color-Palette in use:- https://colorhunt.co/palette/94114
 4. #f76b8a
 */
 
-
 body {
   background-color: #eaf6f6;
+  margin: 0;
 }
 
 hr {
+  border-color: grey;
   border-style: none;
   border-top-style: dotted;
-  border-color: grey;
   border-width: 3px;
+  /*margin-bottom: 5px;*/
   width: 10%;
-  margin-bottom: -5px;
 }
 
 table {
-  margin-top: -18px;
   background-color: #ffd3b6;
   border-collapse: collapse;
   border-radius: 15px 30px;
+  margin: 0;
+  margin-left: 15px;
   padding: 30%;
 }
 
@@ -42,11 +43,14 @@ h2 {
 }
 
 h3 {
-  color: #66bfbf;
-  padding-left: 10px;
-  border-radius: 15px 30px;
-  width: 15%;
   background-color: #fcfefe;
+  border-radius: 15px 30px;
+  color: #66bfbf;
+  margin: 0;
+  margin-left: 15px;
+  padding-left: 10px;
+  width: 15%;
+
 }
 
 h4 {
@@ -62,18 +66,25 @@ h6 {
 }
 
 ul {
-  margin-top: -18px;
-  border-radius: 15px 30px;
   background-color: #ffd3b6;
+  border-radius: 15px 30px;
+  margin: 0;
+  margin-left: 15px;
   width: auto;
 }
 
-img{
+img {
+  background-color: black;
   border-radius: 25px;
-  padding-top: 3%;
   padding-bottom: -1%;
+  padding-top: 3%;
+
 }
 
-a{
-    color: #66bfbf;
+a {
+  color: #66bfbf;
+}
+
+.circular{
+  border-radius: 100%;
 }
