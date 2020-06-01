@@ -1,3 +1,12 @@
+/*
+Color-Palette in use:- https://colorhunt.co/palette/94114
+1. #66bfbf
+2. #eaf6f6
+3. #fcfefe
+4. #f76b8a
+*/
+
+
 body {
   background-color: #eaf6f6;
 }
@@ -37,7 +46,7 @@ h3 {
   padding-left: 10px;
   border-radius: 15px 30px;
   width: 15%;
-  background-color: yellow;
+  background-color: #fcfefe;
 }
 
 h4 {
@@ -57,4 +66,14 @@ ul {
   border-radius: 15px 30px;
   background-color: #ffd3b6;
   width: auto;
+}
+
+img{
+  border-radius: 25px;
+  padding-top: 3%;
+  padding-bottom: -1%;
+}
+
+a{
+    color: #f76b8a;
 }
