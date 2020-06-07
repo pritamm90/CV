@@ -1,0 +1,69 @@
+body {
+  background-color: #fefefe;
+  margin: 0;
+}
+
+.red {
+  background-color: red;
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+}
+
+.blue {
+  background-color: blue;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px
+}
+
+.yellow {
+  background-color: yellow;
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/******************** Lecture 49, Static & Relative Positioning ****************
+*********************Code Challenge ********************************************
+body {
+  background-color: #fefefe;
+  margin: 0;
+}
+
+.red {
+  background-color: red;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 412px;
+}
+
+.blue {
+  background-color: blue;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  right: 200px;
+}
+
+.yellow {
+  background-color: yellow;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  right: 200px;
+}
+*********************Code Challenge ********************************************
+******************** Lecture 49, Static & Relative Positioning ****************/
