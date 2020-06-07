@@ -179,6 +179,10 @@ div {
   padding: 60px 5px 0 10px;
 }
 
+.prof-summary{
+  width: 60%;
+}
+
 .BUTTON_JSA {
   background: #33EDA7;
   background-image: -webkit-linear-gradient(top, #33EDA7, #3AEDA7);
